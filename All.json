@@ -1,0 +1,51 @@
+[
+  {
+    "Fecha": "2019-06-14 11:52:43", 
+    "sensor": "DHT11", 
+    "unidades": "%Agua", 
+    "valor": 0.11, 
+    "variable": "Humedad"
+  }, 
+  {
+    "Fecha": "2019-07-17 16:34:01", 
+    "sensor": "DHT11", 
+    "unidades": "%Agua", 
+    "valor": 0.52, 
+    "variable": "Humedad"
+  }, 
+  {
+    "Fecha": "2019-07-25 20:25:10", 
+    "sensor": "DHT11", 
+    "unidades": "%Agua", 
+    "valor": 0.78, 
+    "variable": "Humedad"
+  }, 
+  {
+    "Fecha": "2019-08-22 20:46:55", 
+    "sensor": "DHT11", 
+    "unidades": "%Agua", 
+    "valor": 0.24, 
+    "variable": "Humedad"
+  }, 
+  {
+    "Fecha": "2019-08-23 10:42:10", 
+    "sensor": "DHT11", 
+    "unidades": "%Agua", 
+    "valor": 0.25, 
+    "variable": "Humedad"
+  }, 
+  {
+    "Fecha": "2019-08-23 07:00:36", 
+    "sensor": "DHT11", 
+    "unidades": "%Agua", 
+    "valor": 0.12, 
+    "variable": "Humedad"
+  }, 
+  {
+    "Fecha": "2019-08-24 02:11:28", 
+    "sensor": "DHT11", 
+    "unidades": "%Agua", 
+    "valor": 0.77, 
+    "variable": "Humedad"
+  }
+]

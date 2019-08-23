@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "791fa45e-ec5a-437a-9a46-3fe6451385ee",
+		"name": "Taller1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mediciones",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mediciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMedia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mediciones/media",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mediciones",
+						"media"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"fecha\": \"2019-06-14 11:22:43\",\r\n    \"sensor\": \"DHT11\",\r\n    \"unidades\": \"%Agua\",\r\n    \"valor\": 0.1,\r\n    \"variable\": \"Humedad\"\r\n  }"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/mediciones",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mediciones"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
